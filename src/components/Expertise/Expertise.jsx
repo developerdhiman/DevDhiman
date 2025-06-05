@@ -6,8 +6,8 @@ const Expertise = () => {
   return (
     <div className="flex flex-col bg-gray-200">
       <div className="text-center py-8">
-        <h1 className="font-bold text-2xl">My Expertise</h1>
-        <p>Core strengths in full-stack development.</p>
+        <h1 className="font-bold text-2xl mb-1">My Expertise</h1>
+        <p className="text-gray-700">Core strengths in full-stack development.</p>
       </div>
 
       {/* card section */}
