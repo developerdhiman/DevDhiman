@@ -7,7 +7,7 @@ const Header = () => {
         <NavLink
           to="/"
           className={({ isActive }) =>
-            isActive ? "bg-gray-200 px-3 py-1 rounded" : "px-1 mx-2 py-1"
+            isActive ? "bg-gray-200 px-2 py-1 rounded" : "px-1 mx-2 py-1"
           }
         >
           Home
@@ -17,7 +17,7 @@ const Header = () => {
         <NavLink
           to="/about"
           className={({ isActive }) =>
-            isActive ? "bg-gray-200 px-3 py-1 rounded" : "px-1 mx-2 py-1"
+            isActive ? "bg-gray-200 px-2 py-1 rounded" : "px-1 mx-2 py-1"
           }
         >
           About
@@ -27,7 +27,7 @@ const Header = () => {
         <NavLink
           to="/projects"
           className={({ isActive }) =>
-            isActive ? "bg-gray-200 px-3 py-1 rounded" : "px-1 mx-2 py-1"
+            isActive ? "bg-gray-200 px-2 py-1 rounded" : "px-1 mx-2 py-1"
           }
         >
           Projects
@@ -37,7 +37,7 @@ const Header = () => {
         <NavLink
           to="/skills"
           className={({ isActive }) =>
-            isActive ? "bg-gray-200 px-3 py-1 rounded" : "px-1 mx-2 py-1"
+            isActive ? "bg-gray-200 px-2 py-1 rounded" : "px-1 mx-2 py-1"
           }
         >
           Skill
@@ -47,7 +47,7 @@ const Header = () => {
         <NavLink
           to="/experience"
           className={({ isActive }) =>
-            isActive ? "bg-gray-200 px-3 py-1 rounded" : "px-1 mx-2 py-1"
+            isActive ? "bg-gray-200 px-2 py-1 rounded" : "px-1 mx-2 py-1"
           }
         >
           Experience
@@ -57,7 +57,7 @@ const Header = () => {
         <NavLink
           to="/contact"
           className={({ isActive }) =>
-            isActive ? "bg-gray-200 px-3 py-1 rounded" : "px-1 mx-2 py-1"
+            isActive ? "bg-gray-200 px-1 py-1 rounded" : "px-1 mx-2 py-1"
           }
         >
           Contact
