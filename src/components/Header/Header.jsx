@@ -4,22 +4,64 @@ const Header = () => {
   const links = (
     <>
       <li>
-        <NavLink>Home</NavLink>
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive ? "bg-gray-200 px-3 py-1 rounded" : "px-1 mx-2 py-1"
+          }
+        >
+          Home
+        </NavLink>
       </li>
       <li>
-        <NavLink>About</NavLink>
+        <NavLink
+          to="/about"
+          className={({ isActive }) =>
+            isActive ? "bg-gray-200 px-3 py-1 rounded" : "px-1 mx-2 py-1"
+          }
+        >
+          About
+        </NavLink>
       </li>
       <li>
-        <NavLink>Projects</NavLink>
+        <NavLink
+          to="/projects"
+          className={({ isActive }) =>
+            isActive ? "bg-gray-200 px-3 py-1 rounded" : "px-1 mx-2 py-1"
+          }
+        >
+          Projects
+        </NavLink>
       </li>
       <li>
-        <NavLink>Skill</NavLink>
+        <NavLink
+          to="/skills"
+          className={({ isActive }) =>
+            isActive ? "bg-gray-200 px-3 py-1 rounded" : "px-1 mx-2 py-1"
+          }
+        >
+          Skill
+        </NavLink>
       </li>
       <li>
-        <NavLink>Experience</NavLink>
+        <NavLink
+          to="/experience"
+          className={({ isActive }) =>
+            isActive ? "bg-gray-200 px-3 py-1 rounded" : "px-1 mx-2 py-1"
+          }
+        >
+          Experience
+        </NavLink>
       </li>
       <li>
-        <NavLink>Contact</NavLink>
+        <NavLink
+          to="/contact"
+          className={({ isActive }) =>
+            isActive ? "bg-gray-200 px-3 py-1 rounded" : "px-1 mx-2 py-1"
+          }
+        >
+          Contact
+        </NavLink>
       </li>
     </>
   );

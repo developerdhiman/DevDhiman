@@ -12,8 +12,10 @@ const Footer = () => {
       </nav>
       <aside>
         <p>
-          Copyright © {new Date().getFullYear()} - All right reserved by ACME
-          Industries Ltd
+          Copyright © {new Date().getFullYear()} - All right reserved by DevDhiman.
+        </p>
+        <p>
+          Design with passion and precision.
         </p>
       </aside>
     </footer>

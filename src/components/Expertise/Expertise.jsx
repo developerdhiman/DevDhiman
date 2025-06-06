@@ -4,15 +4,17 @@ import { IoMdCode } from "react-icons/io";
 
 const Expertise = () => {
   return (
-    <div className="flex flex-col bg-gray-200">
+    <div className="container mx-auto px-4 bg-gray-200 overflow-x-hidden">
       <div className="text-center py-8">
         <h1 className="font-bold text-2xl mb-1">My Expertise</h1>
-        <p className="text-gray-700">Core strengths in full-stack development.</p>
+        <p className="text-gray-700">
+          Core strengths in full-stack development.
+        </p>
       </div>
 
       {/* card section */}
-      <div className="flex flex-col gap-4 lg:flex-row lg:justify-between py-8 px-8">
-        <div className="card w-96 bg-base-100 card-md shadow-sm">
+      <div className="flex flex-col gap-6 lg:flex-row lg:justify-between py-8">
+        <div className="card w-full max-w-sm mx-auto bg-base-100 shadow-sm">
           <div className="card-body">
             <IoMdCode className="text-4xl bg-cyan-100 text-sky-800 py-2 rounded-full" />
             <div>
@@ -24,7 +26,7 @@ const Expertise = () => {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 card-md shadow-sm">
+        <div className="card w-full max-w-sm mx-auto bg-base-100 shadow-sm">
           <div className="card-body">
             <AiFillDatabase className="text-4xl bg-cyan-100 text-sky-800 py-2 rounded-full" />
             <div>
@@ -36,7 +38,7 @@ const Expertise = () => {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 card-md shadow-sm">
+        <div className="card w-full max-w-sm mx-auto bg-base-100 shadow-sm">
           <div className="card-body">
             <GiDatabase className="text-4xl bg-cyan-100 text-sky-800 py-2 rounded-full" />
             <div>
