@@ -18,8 +18,8 @@ const Projects = () => {
           defaultChecked
         />
         {/* cart-section 01 */}
-        <div className="tab-content bg-base-100 border-base-300 p-6">
-          <div className="flex flex-col lg:flex-row gap-20">
+        <div className="tab-content bg-base-100 border-base-300 p-6 pb-20">
+          <div className="flex flex-col lg:flex-row gap-20 shadow-2xl">
             <div className="card bg-base-100 w-96 shadow-sm">
               <figure>
                 <img
@@ -130,7 +130,7 @@ const Projects = () => {
         />
         {/* cart-section 02*/}
         <div className="tab-content bg-base-100 border-base-300 p-6">
-          <div className="flex flex-col lg:flex-row gap-20">
+          <div className="flex flex-col lg:flex-row gap-20 shadow-2xl">
             <div className="card bg-base-100 w-96 shadow-sm">
               <figure>
                 <img
@@ -241,7 +241,7 @@ const Projects = () => {
         />
         {/* cart-section 03*/}
         <div className="tab-content bg-base-100 border-base-300 p-6">
-          <div className="flex flex-col lg:flex-row gap-20">
+          <div className="flex flex-col lg:flex-row gap-20 shadow-2xl">
             <div className="card bg-base-100 w-96 shadow-sm">
               <figure>
                 <img
@@ -350,7 +350,7 @@ const Projects = () => {
           aria-label="Full-stack"
         />
         <div className="tab-content bg-base-100 border-base-300 p-6">
-          {/* cart-section */}
+          {/* cart-section 04*/}
           <div className="flex flex-col lg:flex-row gap-20">
             <div className="card bg-base-100 w-96 shadow-sm">
               <figure>
