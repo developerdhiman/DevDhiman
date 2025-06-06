@@ -1,3 +1,4 @@
+import { FaDev } from "react-icons/fa";
 import { Link, NavLink } from "react-router";
 
 const Header = () => {
@@ -40,7 +41,7 @@ const Header = () => {
             isActive ? "bg-gray-200 px-2 py-1 rounded" : "px-1 mx-2 py-1"
           }
         >
-          Skill
+          Skills
         </NavLink>
       </li>
       <li>
@@ -93,8 +94,8 @@ const Header = () => {
             {links}
           </ul>
         </div>
-        <Link to="/" className="btn btn-ghost text-xl">
-          DevDhiman
+        <Link to="/" className="flex items-center text-xl font-bold">
+          <FaDev className="text-3xl"/> Dhiman
         </Link>
       </div>
       <div className="navbar-end hidden lg:flex">
